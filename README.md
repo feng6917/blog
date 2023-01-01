@@ -6,5 +6,8 @@
 
 目录
 
-* 文章
+* 程序杂谈
+  *  [权限这些事儿](https://github.com/fouber/blog/issues/41)
+
+* 经典转载
   * [一个程序员的成长之路](https://github.com/fouber/blog/issues/41)
