@@ -1,6 +1,6 @@
 # 个人博客
 
-![img.png](https://github.com/feng6917/blog/asserts/stay.01.jpg)
+![img.png](https://github.com/feng6917/blog/blob/main/asserts/stay.01.jpg)
 
 > 与人为善,于己为善,与人有路,于己有退
 
