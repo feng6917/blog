@@ -1,4 +1,0 @@
-server:
-    app: blog
-    version:  v0.1
-    port: 9002
