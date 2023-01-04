@@ -7,7 +7,8 @@
 目录
 
 * 程序杂谈
-  *  [权限这些事儿](https://github.com/feng6917/blog/issues/1)
+  * [权限这些事儿](https://github.com/feng6917/blog/issues/1)
+  * [excel结构体标签的使用](https://github.com/feng6917/blog/issues/2)
 
 * 经典转载
   * [一个程序员的成长之路](https://github.com/fouber/blog/issues/41)
