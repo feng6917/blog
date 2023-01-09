@@ -11,6 +11,12 @@
 
 * 经典转载
   * [一个程序员的成长之路](https://github.com/fouber/blog/issues/41)
+
+* 书籍
+  * Golang
+    * [Go语言(Golang)编码规范](https://www.bookstack.cn/read/go-code-convention/zh-CN-README.md)
+    * [编写地道的Go代码](https://colobu.com/2017/02/07/write-idiomatic-golang-codes/)
+    * [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
   
   
 > 与人为善,于己为善,与人有路,于己有退  
