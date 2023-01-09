@@ -17,6 +17,12 @@
     * [Go语言(Golang)编码规范](https://www.bookstack.cn/read/go-code-convention/zh-CN-README.md)
     * [编写地道的Go代码](https://colobu.com/2017/02/07/write-idiomatic-golang-codes/)
     * [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
+  * 其他
+    * [天才向左疯子在右](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
+    * [只有偏执狂才能生存](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
+    * [在那西天取经的路上](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
+    * [超级整理术](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
+    * [人间值得](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
   
   
 > 与人为善,于己为善,与人有路,于己有退  
