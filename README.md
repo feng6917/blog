@@ -22,7 +22,7 @@
     * [只有偏执狂才能生存](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
     * [在那西天取经的路上](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
     * [超级整理术](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
-    * [人间值得]([https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences](https://docs.google.com/document/d/1xcoNVchy_O-iz47KGXxMUnr7Ta4cwotxWHFQkU6bNHA/edit))
+    * [人间值得](https://docs.google.com/document/d/1xcoNVchy_O-iz47KGXxMUnr7Ta4cwotxWHFQkU6bNHA/edit)
   
   
 > 与人为善,于己为善,与人有路,于己有退  
