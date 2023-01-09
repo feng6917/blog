@@ -18,11 +18,11 @@
     * [编写地道的Go代码](https://colobu.com/2017/02/07/write-idiomatic-golang-codes/)
     * [Go Code Review Comments](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
   * 其他
-    * [天才向左疯子在右](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
-    * [只有偏执狂才能生存](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
-    * [在那西天取经的路上](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
-    * [超级整理术](https://github.com/golang/go/wiki/CodeReviewComments#comment-sentences)
-    * [人间值得](https://docs.google.com/document/d/1xcoNVchy_O-iz47KGXxMUnr7Ta4cwotxWHFQkU6bNHA/edit)
+    * [天才向左疯子在右](https://drive.google.com/file/d/11pMWV9oRE3XRbwZjsL_Iu-WjxMC6tw5m/view?usp=share_link)
+    * [只有偏执狂才能生存](https://drive.google.com/file/d/18ofd4ldbKKgCnv9rpuArfrXCOmhmBtWU/view?usp=share_link)
+    * [在那西天取经的路上](https://drive.google.com/file/d/1r7R0-EX9SrC997f_-mK33uiVRNHlmSmW/view?usp=share_link)
+    * [超级整理术](https://drive.google.com/file/d/1rBkNKJ1vuPEJhuv94l3F5dzkL_6Dz0Ad/view?usp=share_link)
+    * [人间值得](https://drive.google.com/file/d/1iIO3Za-S9G90GMi7Z_h00WW-P6SdC3Zn/view?usp=share_link)
   
   
 > 与人为善,于己为善,与人有路,于己有退  
