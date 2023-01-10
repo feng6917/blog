@@ -9,7 +9,7 @@
   * [权限这些事儿](https://github.com/feng6917/blog/issues/1)
   * [excel结构体标签的使用](https://github.com/feng6917/blog/issues/2)
 
-* 经典转载
+* 转载
   * [一个程序员的成长之路](https://github.com/fouber/blog/issues/41)
 
 * 书籍
@@ -34,6 +34,8 @@
     * [PostgreSQL修炼之道](https://drive.google.com/file/d/16trDa1a7JjhQeOADh6zXjclvk4x98M0M/view?usp=share_link)
     * [Redis入门指南](https://drive.google.com/file/d/1RQhmA6eo0MEfIquLQtuyV22V5lsttmFZ/view?usp=share_link)
     * [Redis设计与实现](https://drive.google.com/file/d/1ZUSueUEZ6YxfY391320B0HmXsq6vzqG1/view?usp=share_link)
+    * [nginx 中文文档](https://www.nginx.cn/doc/)
+    * [nginx 开发从入门到精通-淘宝核心组编写](http://tengine.taobao.org/book/)
     
   * 程序
     * [程序员的职业素养](https://drive.google.com/file/d/1L4TTFnzsYidNuWaFAuVULnDwehHJxY4t/view?usp=share_link)
