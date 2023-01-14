@@ -9,6 +9,7 @@
   * [权限这些事儿](https://github.com/feng6917/blog/issues/1)
   * [excel结构体标签的使用](https://github.com/feng6917/blog/issues/2)
   * [一次PDF处理记录](https://github.com/feng6917/blog/issues/3)
+  * [数据库方法调用上的画蛇添足](https://github.com/feng6917/blog/issues/4)
 
 * 转载
   * [一个程序员的成长之路](https://github.com/fouber/blog/issues/41)
