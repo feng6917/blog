@@ -23,6 +23,7 @@
     * [Go 语言编程](https://drive.google.com/file/d/1npe1PT4tU4Wr7SHvg7oUWS_djXJmMvNN/view?usp=share_link)
     * [Go 语言程序设计](https://drive.google.com/file/d/1eOdJB5hdXbJAO5CWQAzRW5VlM5RSYrRK/view?usp=share_link)
     * [Go 语言高级编程](https://drive.google.com/file/d/1Mmk9HG_w2yKEsZuQtyNvXM2ApouMOOLR/view?usp=share_link)
+    * [GOLANG 修养之路 刘丹冰Aceld](https://github.com/aceld/golang)
     
   * Python
     * [轻量级Django](https://drive.google.com/file/d/1bnPvkckYtK9op3lx9irCNqwKxuO8ozH5/view?usp=share_link)
