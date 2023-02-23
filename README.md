@@ -46,6 +46,7 @@
     * [Elasticsearch大数据搜索引擎](https://drive.google.com/file/d/1idPzKsM5XqZf2pdZXB6RzadECS6o_5I4/view?usp=share_link)
     * [高效程序员的45个习惯](https://drive.google.com/file/d/1hSIeggu8AaOtya_vtMrm8Y_gpQB36c9O/view?usp=share_link)
     * [重构-改善既有代码的设计](https://drive.google.com/file/d/1Np3lTT0yeX0k47UQmFsjILs_6IZMxeWF/view?usp=share_link)
+    * [人月神话](https://drive.google.com/file/d/1XwVRcPbRu1DmeLmBhIkHBbJgk8Bwk--q/view?usp=share_link)
 
   * 其他
     * [天才向左疯子在右](https://drive.google.com/file/d/11pMWV9oRE3XRbwZjsL_Iu-WjxMC6tw5m/view?usp=share_link)
