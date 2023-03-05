@@ -13,6 +13,7 @@
   * [GC 垃圾回收复习笔记 大白文](https://github.com/feng6917/blog/issues/5)
   * [k8s 本地练习笔记](https://github.com/feng6917/blog/issues/6)
   * [Slice 扩容 爬楼梯](https://github.com/feng6917/blog/issues/7)
+  * [小demo 汇总](https://github.com/feng6917/blog/issues/8)
 
 * 转载
   * [一个程序员的成长之路](https://github.com/fouber/blog/issues/41)
