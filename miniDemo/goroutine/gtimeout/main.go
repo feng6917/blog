@@ -19,6 +19,9 @@ func f2(in chan struct{}) {
 }
 
 func main() {
+	// 简单使用测试
+	// DoCtxTime()
+
 	/*
 		场景：两个goroutine,第一个2秒执行完毕，第二个3秒执行完毕。
 	*/
@@ -51,4 +54,18 @@ func main() {
 	}()
 
 	time.Sleep(time.Second * 5)
+}
+
+func DoCtxTime() {
+	tm, ctx := context.WithTimeout(context.Background(), 2*time.Second)
+
+	defer ctx()
+	select {
+	case <-time.After(3 * time.Second):
+		fmt.Println("3 s")
+	case <-time.After(4 * time.Second):
+		fmt.Println("4 s")
+	case <-tm.Done():
+		fmt.Println("Done")
+	}
 }
