@@ -22,6 +22,22 @@ TODO是当不清楚要使用哪个 Context 或尚不可用时，代码应使用 
 */
 
 func main() {
+	// 正常终止
+	//a1()
+	// --------
+	// 父级终止 子级不终止    父级终止 子级终止
+	//a2()
+	// 子级终止 父级终止     子级终止结束，父级继续运行，任务完成终止结束
+	//a3()
+	// 子级终止 父级不终止   子级终止结束，父级不受影响
+	//a4()
+
+	// 验证a2 是否跟在父级函数创建子函数有关，验证结果，无关系，父级终止，子级即终止
+	a5()
+
+}
+
+func a1() {
 	ctx, cancel := context.WithCancel(context.Background())
 	go func(ctx context.Context) {
 		for {
@@ -39,4 +55,158 @@ func main() {
 	time.Sleep(5 * time.Second)
 	cancel()
 	time.Sleep(1 * time.Second)
+}
+
+func a2() {
+	var ctx, nctx context.Context
+	var cancel context.CancelFunc
+	ctx, cancel = context.WithCancel(context.Background())
+	go func(ctx context.Context) {
+		nctx, _ = context.WithCancel(ctx)
+		go func(ctx context.Context) {
+			for {
+				time.Sleep(time.Second)
+				select {
+				case <-ctx.Done():
+					fmt.Println("child done!")
+					return
+				default:
+					fmt.Println("child: ", time.Second)
+				}
+			}
+		}(nctx)
+		for {
+			time.Sleep(time.Second)
+			select {
+			case <-ctx.Done():
+				fmt.Println("parent done!")
+				return
+			default:
+				fmt.Println("parent: ", time.Second)
+			}
+		}
+
+	}(ctx)
+	time.Sleep(5 * time.Second)
+	// 终止
+	cancel()
+	time.Sleep(1 * time.Second)
+	// 终止
+	//ncancel()
+	//time.Sleep(1 * time.Second)
+}
+
+func a3() {
+	var ctx, nctx context.Context
+	var cancel, ncancel context.CancelFunc
+	ctx, cancel = context.WithCancel(context.Background())
+	go func(ctx context.Context) {
+		nctx, ncancel = context.WithCancel(ctx)
+		go func(ctx context.Context) {
+			for {
+				time.Sleep(time.Second)
+				select {
+				case <-ctx.Done():
+					fmt.Println("child done!")
+					return
+				default:
+					fmt.Println("child: ", time.Second)
+					// 子级终止
+					ncancel()
+				}
+			}
+		}(nctx)
+		for {
+			time.Sleep(time.Second)
+			select {
+			case <-ctx.Done():
+				fmt.Println("parent done!")
+				return
+			default:
+				fmt.Println("parent: ", time.Second)
+			}
+		}
+
+	}(ctx)
+	time.Sleep(5 * time.Second)
+	// 父级终止
+	cancel()
+	time.Sleep(1 * time.Second)
+}
+
+func a4() {
+	var ctx, nctx context.Context
+	var ncancel context.CancelFunc
+	ctx, _ = context.WithCancel(context.Background())
+	go func(ctx context.Context) {
+		nctx, ncancel = context.WithCancel(ctx)
+		go func(ctx context.Context) {
+			for {
+				time.Sleep(time.Second)
+				select {
+				case <-ctx.Done():
+					fmt.Println("child done!")
+					return
+				default:
+					fmt.Println("child: ", time.Second)
+					// 子级终止
+					ncancel()
+				}
+			}
+		}(nctx)
+		for {
+			time.Sleep(time.Second)
+			select {
+			case <-ctx.Done():
+				fmt.Println("parent done!")
+				return
+			default:
+				fmt.Println("parent: ", time.Second)
+			}
+		}
+
+	}(ctx)
+	time.Sleep(5 * time.Second)
+	// 父级终止
+	// cancel()
+	time.Sleep(1 * time.Second)
+}
+
+func a5() {
+	var ctx, nctx context.Context
+	var cancel context.CancelFunc
+	ctx, cancel = context.WithCancel(context.Background())
+	go func(ctx context.Context) {
+		for {
+			time.Sleep(time.Second)
+			select {
+			case <-ctx.Done():
+				fmt.Println("parent done!")
+				return
+			default:
+				fmt.Println("parent: ", time.Second)
+			}
+		}
+
+	}(ctx)
+
+	nctx, _ = context.WithCancel(ctx)
+	go func(ctx context.Context) {
+		for {
+			time.Sleep(time.Second)
+			select {
+			case <-ctx.Done():
+				fmt.Println("child done!")
+				return
+			default:
+				fmt.Println("child: ", time.Second)
+			}
+		}
+	}(nctx)
+	time.Sleep(5 * time.Second)
+	// 终止
+	cancel()
+	time.Sleep(1 * time.Second)
+
+	time.Sleep(5 * time.Second)
 }
